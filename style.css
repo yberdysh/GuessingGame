@@ -1,0 +1,62 @@
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+html {
+  box-sizing: 'border-box'
+}
+
+
+#players-input {
+  width: 160px;
+  margin: 0 auto 0 auto;
+  margin-bottom: 20px;
+}
+
+.guess {
+  display: inline;
+  font-size: 30px;
+  border: 2px solid #1FBCD3;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin: 10px;
+}
+
+#menu-btns {
+  margin-top: 15px;
+}
+
+#main {
+  /*vertical-align: middle;*/
+  padding: auto 25px;
+
+}
+
+#app {
+  background-image: url('https://images.unsplash.com/photo-1505356822725-08ad25f3ffe4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab269619b7d2a86beaa51089b3c31407&auto=format&fit=crop&w=934&q=80');
+  background-size: cover;
+  color: #1fbcd3;
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
